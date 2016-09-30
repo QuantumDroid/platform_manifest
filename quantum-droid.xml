@@ -22,7 +22,7 @@
   <project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="quantum-droid" />
   <project path="external/bash" name="platform_external_bash"  remote="quantum-droid" />
   <project path="external/brctl" name="platform_external_brctl" remote="quantum-droid" />
-  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="quanttum-droid" />
+  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="quantum-droid" />
   <project path="external/connectivity" name="platform_external_connectivity"  remote="quantum-droid" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="quantum-droid" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="quantum-droid" />

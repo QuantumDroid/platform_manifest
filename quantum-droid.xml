@@ -43,7 +43,7 @@
   <project path="external/json-c" name="platform_external_json-c" remote="quantum-droid" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="quantum-droid" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="quantum-droid" />
-  <project path="external/libnetfilter" name="platform_external_libnetfilter" remote="quantum-droid" />
+  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="quantum-droid" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="quantum-droid" />
   <project path="external/powertop" name="platform_external_powertop" remote="quantum-droid" />
   <project path="external/protobuf-c" name="platform_external_protobuf-c" remote="quantum-droid" />

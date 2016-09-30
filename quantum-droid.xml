@@ -7,7 +7,7 @@
 
   <!-- Quantum Droid Projects -->
   <project name="platform_manifest" path="manifest"  remote="quantum-droid" />
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="quantum-droid" >
     <copyfile src="core/root.mk" dest="Makefile" remote="quantum-droid" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed"  remote="quantum-droid" />

@@ -11,6 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" remote="quantum-droid" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed"  remote="quantum-droid" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="quantum-droid" />
   <project path="art" name="platform_art" groups="pdk"  remote="quantum-droid" />
   <project path="bionic" name="platform_bionic" groups="pdk"  remote="quantum-droid" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs"  remote="quantum-droid" />

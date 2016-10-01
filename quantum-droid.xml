@@ -63,6 +63,7 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="quantum-droid" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="quantum-droid" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />
+  <project path="hardware/cyanogen" name="platform_hardware_cyanogen" remote="quantum-droid" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="quantum-droid" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="quantum-droid" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="quantum-droid"/>

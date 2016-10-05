@@ -5,28 +5,39 @@ QuantumDroid
 ============
 
 ### Getting Started ###
----------------
+-----------------------
 
-To get started with the Cosmic-OS sources, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+- To get started with the QuantumDroid ROM, you'll need to get familiar with,
+- [Git and Repo](http://source.android.com/source/version-control.html).
 
+Note
+----
+- The commands have to given in the same sequence and same way. 
+- Better to copy paste instead of typing(can mislead to wrong commands).
 
 Initialize the Repositories
 ---------------------------
 
-    repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
+    $ mkdir ~/qd && cd ~/qd
 
-    repo sync --no-tags --no-clone-bundle -j6
+    $ repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
 
-This will initialize the new repository and begin the initial sync.  This will take a while!
+    $ repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
 
+- This will initialize the new repository and begin the initial sync. This can take a while!
 
-Building the System
----------------
+Building QuantumDroid ROM
+-------------------------
 
-Initialize the environment with the envsetup.sh script.
-Note: Replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
+- Initialize the ROM environment with the envsetup.sh script. By entering command (i).
 
-    . build/envsetup.sh
-    brunch <device>
+    1. . build/envsetup.sh
+    2. lunch qd_<device>-userdebug
+    3. make otapackage -j6
+    
+Issues or any queries
+---------------------
 
+- Only contact me(developer of this ROM) if you have any issues with building. Device tree issues will be neglected.
+- You can conact me on Telegram. My username is @hridayhs
+- You can also contact me by mailing me, hridaysharma42@gmail.com mail id.

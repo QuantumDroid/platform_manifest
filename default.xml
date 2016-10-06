@@ -23,7 +23,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
@@ -43,9 +42,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
@@ -59,7 +56,6 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" />
   <project path="external/caliper" name="platform/external/caliper" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
@@ -113,7 +109,6 @@
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
@@ -156,7 +151,6 @@
   <project path="external/libevent" name="platform/external/libevent" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
@@ -187,7 +181,6 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -252,7 +245,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
@@ -289,15 +281,12 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
@@ -308,32 +297,25 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />

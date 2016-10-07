@@ -51,7 +51,7 @@
   <project path="external/libncurses" name="platform_external_libncurses" remote="quantum-droid" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="quantum-droid" />
   <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="quantum-droid" />
-  <project path="external/libsphonenumbergoogle" name="platform_external_libphonenumbergoogle" remote="quantum-droid" />
+  <project path="external/libphonenumbergoogle" name="platform_external_libphonenumbergoogle" remote="quantum-droid" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="quantum-droid" />
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="quantum-droid"/>
   <project path="external/powertop" name="platform_external_powertop" remote="quantum-droid" />

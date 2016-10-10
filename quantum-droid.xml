@@ -60,6 +60,7 @@
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins"  remote="quantum-droid" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="quantum-droid" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" groups="pdk" remote="quantum-droid" />
+  <project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="quantum-droid" />
   <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="quantum-droid" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="quantum-droid" />
   <project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="quantum-droid" />

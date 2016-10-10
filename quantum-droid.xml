@@ -99,6 +99,7 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="quantum-droid" />
+  <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="quantum-droid" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" groups="pdk-fs" remote="quantum-droid" />

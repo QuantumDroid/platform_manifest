@@ -18,13 +18,15 @@ Note
 Initialize the Repositories
 ---------------------------
 
+- Follow below steps to initialize QuantumDroid ROM repository.
+
     1. mkdir ~/qd && cd ~/qd
 
     2. repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
 
     3. repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
 
-- This will initialize the new repository and begin the initial sync. This can take a while!
+- This will initialize the QuantumDroid ROM repository and begin the initial sync by iii command. This can take a while!
 
 Building QuantumDroid ROM
 -------------------------

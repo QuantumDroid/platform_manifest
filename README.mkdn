@@ -18,11 +18,11 @@ Note
 Initialize the Repositories
 ---------------------------
 
-    $ mkdir ~/qd && cd ~/qd
+    1. mkdir ~/qd && cd ~/qd
 
-    $ repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
+    2. repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
 
-    $ repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
+    3. repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
 
 - This will initialize the new repository and begin the initial sync. This can take a while!
 

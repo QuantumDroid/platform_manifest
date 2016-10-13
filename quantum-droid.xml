@@ -65,8 +65,8 @@
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="quantum-droid" />
   <project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="quantum-droid" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="quantum-droid" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="quantum-droid" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="n7.0-stag" remote="quantum-droid" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" revision="n7.0-stag" remote="quantum-droid" />
   <project path="frameworks/opt/chips" name="platform_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid"/>
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="quantum-droid" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="quantum-droid" />
@@ -98,11 +98,12 @@
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="quantum-droid" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" revision="n-stag" remote="quantum-droid" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="quantum-droid" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="quantum-droid" />
   <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" groups="pdk-fs" remote="quantum-droid" />
+  <project path="packages/apps/QD-Engine" name="platform_packages_apps_QD-Engine" revision="n-stag" remote="quantum-droid" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="quantum-droid" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="quantum-droid" />

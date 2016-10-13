@@ -22,7 +22,7 @@ Initialize the Repositories
 
     1. mkdir ~/qd && cd ~/qd
 
-    2. repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n7.0
+    2. repo init -u https://github.com/QuantumDroid/platform_manifest.git -b n-stag
 
     3. repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
 

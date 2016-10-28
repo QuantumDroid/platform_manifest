@@ -3,7 +3,7 @@
 
   <remote  name="quantum-droid"
            fetch="https://github.com/QuantumDroid"
-           revision="refs/heads/n7.0" />
+           revision="refs/heads/n7.1" />
 
   <!-- Quantum Droid Projects -->
   <project name="platform_manifest" path="manifest"  remote="quantum-droid" />

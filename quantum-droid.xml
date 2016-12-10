@@ -119,7 +119,7 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="quantum-droid" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="quantum-droid" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="quantum-droid" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="quantum-droid" />
+  <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="quantum-droid" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="quantum-droid" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="quantum-droid"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="quantum-droid" />

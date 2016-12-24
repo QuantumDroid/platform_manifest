@@ -40,8 +40,6 @@
   <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/qcom/wlan" name="QuantumDroid/platform_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/wlan-caf" name="QuantumDroid/platform_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
-  <project path="hardware/ril" name="QuantumDroid/platform_hardware_ril" groups="pdk" revision="n7.1" remote="github" />
-  <project path="hardware/ril-caf" name="QuantumDroid/platform_hardware_ril" groups="pdk" revision="n7.1-caf" remote="github" />
   <project path="vendor/qcom/opensource/dataservices" name="QuantumDroid/platform_vendor_qcom-opensource_dataservices" revision="n7.1" remote="github" />
   <project path="vendor/qcom/opensource/dpm" name="QuantumDroid/platform_vendor_qcom-opensource_dpm" revision="n7.1" remote="github" />
   <project path="vendor/qcom/opensource/time-services" name="QuantumDroid/platform_vendor_qcom_opensource_time-services" revision="n7.1" remote="github" />

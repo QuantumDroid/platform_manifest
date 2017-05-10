@@ -1,0 +1,45 @@
+<img src="https://raw.githubusercontent.com/QuantumDroid/platform_manifest/n7.1/android.jpg">
+
+QuantumDroid
+============
+
+### Getting Started ###
+-----------------------
+
+- To get started with the QuantumDroid ROM, you'll need to get familiar with,
+- [Git and Repo](http://source.android.com/source/version-control.html).
+
+Note
+----
+- The commands have to given in the same sequence and same way. 
+- Better to copy paste instead of typing(can mislead to wrong commands).
+
+Initialize the Repositories
+---------------------------
+
+- Follow below steps to initialize QuantumDroid ROM repository.
+
+    1. mkdir ~/qd && cd ~/qd
+
+    2. repo init -u https://github.com/QuantumDroid/platform_manifest.git -b mm6.0
+
+    3. repo sync --no-tags --no-clone-bundle -c -f --force-sync -j6
+
+- This will initialize the QuantumDroid ROM repository and begin the initial sync by iii command. This can take a while!
+
+Building QuantumDroid ROM
+-------------------------
+
+- Initialize the ROM environment with the envsetup.sh script. By entering command (i).
+
+    1. . build/envsetup.sh
+    2. lunch qd_<device>-userdebug
+    3. make otapackage -j6
+    
+Issues or any queries
+---------------------
+
+- Only contact me(developer of this ROM) if you have any issues with building. Device tree issues will be neglected.
+- You can conact me on Telegram. My username is @hridayhs
+- You can also contact me by mailing me, hridaysharma42@gmail.com mail id.
+

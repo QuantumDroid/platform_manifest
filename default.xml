@@ -2,11 +2,21 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+   
+  <remote  name="quantum-droid"
+           fetch="https://github.com/QuantumDroid"
+           revision="refs/heads/mm6.0" />
+  
   <default revision="refs/tags/android-6.0.1_r79"
            remote="aosp"
            sync-j="4" />
 
+<!-- QuantumDroid -->  
+  <project path="manifest" name="platform_manifest" remote="quantum-droid" />
+  
+<!-- Android Open Source Project -->  
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -480,3 +490,4 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
+
